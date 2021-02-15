@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
 
         ImageView img = (ImageView)findViewById(R.id.imageView);
-        img.setBackgroundResource(R.drawable.cat_animation);
+        img.setBackgroundResource(R.drawable.test_animation);
         final AnimationDrawable myAnim = (AnimationDrawable) img.getBackground();
         img.setOnClickListener(new View.OnClickListener()
         {
@@ -25,5 +25,4 @@ public class MainActivity extends AppCompatActivity
             }
         });
     }
-
 }
